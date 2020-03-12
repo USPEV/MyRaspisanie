@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Uspevashka</string>
+    <string name="title_activity_eight">EightActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="button11">Неделя четная</string>
+    <string name="button10">Неделя нечетная</string>
+    <string name="title_activity_main11">Main11Activity</string>
+    <string name="tab_text_1">ПН</string>
+    <string name="tab_text_2">ВТ</string>
+    <string name="tab_text_3">СР</string>
+    <string name="tab_text_4">ЧТ</string>
+    <string name="tab_text_5">ПТ</string>
+    <string name="tab_text_6">СБ</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>
