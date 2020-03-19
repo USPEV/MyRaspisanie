@@ -60,8 +60,8 @@ public class fragment_main12 extends ListFragment {
         super.onResume();
         try {
             sqlHelper.open();
-            userCursor = sqlHelper.database.rawQuery("select * from " + DatabaseHelper.TABLE + " where weak="+classID+" and day=2", null);
-            String[] headers = new String[]{DatabaseHelper.COLUMN_UROK};
+            userCursor = sqlHelper.database.rawQuery("select * from " + DatabaseHelper.TABLE + " where week LIKE" + "'%|"+classID+"|%'" +" and day=2", null);
+            String[] headers = new String[]{DatabaseHelper.COLUMN_SUBJECT};
             userAdapter = new SimpleCursorAdapter(getActivity(), R.layout.item, userCursor, headers, new int[]{R.id.uroki},0);
             mList.setAdapter(userAdapter);
 

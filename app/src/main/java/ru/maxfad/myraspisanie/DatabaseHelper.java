@@ -16,17 +16,21 @@ import java.sql.SQLException;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
 
-    public static String DB_NAME = "rasp1.sqlite";
+    //public static String DB_NAME = "rasp1.sqlite";
+    public static String DB_NAME = "rasp3.sqlite";
     private static final int SCHEMA = 1; // версия базы данных
     static final String TABLE = "myrasp";
     private static String DB_PATH;
 
     public static final String COLUMN_ID="_id";
-    public static final String COLUMN_WEAK = "weak";
+    public static final String COLUMN_WEEK = "week";
     public static final String COLUMN_DAY = "day";
-    public static final String COLUMN_UROKID = "urok_id";
-    public static final String COLUMN_UROK = "urok";
-
+    public static final String COLUMN_SUBJECT = "subject";
+    public static final String COLUMN_TYPE = "type";
+    public static final String COLUMN_BUILDING = "building";
+    public static final String COLUMN_CLASSROOM = "classroom";
+    public static final String COLUMN_START = "start";
+    public static final String COLUMN_END = "end";
 
 
 
